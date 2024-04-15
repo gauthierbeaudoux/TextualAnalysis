@@ -11,7 +11,7 @@ nltk.download('punkt')
 nltk.download('stopwords')
 
 
-with open('AnalyseTextuelle/discoursGreeningFinance.txt', 'r') as file:
+with open('discoursGreeningFinance.txt', 'r') as file:
     real_text = file.read()
 
 print(len(real_text))
